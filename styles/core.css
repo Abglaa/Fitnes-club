@@ -1,0 +1,15 @@
+html, body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.main__container {
+    /* background: rgba(220, 20, 60, 0.329); */
+    max-width: 1664px;
+    height: 100%;
+    object-fit: cover;
+    margin: auto;
+    position: relative;
+}
