@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #000;
+    background: #1D1C21;
     box-sizing: border-box;
 }
 
@@ -70,7 +70,6 @@ body {
 
 .burger-menu_container {
     display: flex;
-    background: #000;
     margin-right: 120px;
 }
 
@@ -136,7 +135,11 @@ body {
     background-image: url(../assets/images/headerMenu--image.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    max-width: 1920px;
+    height: auto;
+    box-shadow: inset -20px -177px 86px -110px #1D1C21;
+    margin-bottom: 58px;
+    margin: auto;
 }
 
 .backgroundLogo {
@@ -212,4 +215,224 @@ body {
     border: none;
     max-width: 397px;
     height: 45px;
+    margin-bottom: 273px;
 }
+
+.main--sotial {
+    width: auto;
+    height: 42px;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.main--sotial--header {
+    color: rgb(249, 249, 251);
+    font-family: 'Circe';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.main--sotial__leftContent {
+    display: flex;
+    gap: 10px;
+}
+
+.main--sotial--link {
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #403E43;
+    padding: 11px;
+}
+
+.facebookSize {
+    width: 11px;
+    height: 20px;
+    padding: 10px 15px;
+}
+
+.vkSize {
+    width: 19px;
+    height: 10px;
+    padding: 15px 10px;
+}
+
+.pageNavigator {
+    width: 1134px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.main__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Inventory */
+
+.inventory {
+    background-image: url(../assets/images/inventoryBG-image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1920px;
+    height: 1219px;
+    margin-bottom: 60px;
+    margin: auto;
+}
+
+.inventory--header {
+    color: rgb(255, 255, 255);
+    font-family: 'RussoOne';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+
+.inventoryFrame {
+    display: flex;
+    flex-direction: column;
+    max-width: 1110px;
+    height: auto;
+    margin: auto;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.frameContainer {
+    display: inline-flex;
+    gap: 30px;
+    margin: auto;
+}
+
+.frame {
+    display: flex;
+    width: 350px;
+    height: 202px;
+    background-image: url(../assets/images/frameBG-image.jpeg);
+    position: relative;
+}
+
+.frame__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 272px;
+    height: 202px;
+    margin: auto;
+    border-bottom: 5px solid rgb(200, 10, 44);
+}
+
+.frame--header {
+    color: rgb(249, 249, 251);
+    font-family: 'Circe';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 16px;
+}
+
+.frame--text {
+    color: rgb(249, 249, 251);
+    font-family: 'Circe';
+    font-size: 16px;
+    font-weight: 350;
+    line-height: 24px;
+    text-align: left;
+}
+
+.frame--number {
+    position: absolute;
+    color: rgb(249, 249, 251);
+    font-family: 'RussoOne';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    padding: 9px;
+    background: rgba(255, 255, 255, 0.1);
+    right: 0;
+    top: -16px;
+}
+
+.freeTraining {
+    display: flex;
+    max-width: 1110px;
+    height: 140px;
+    margin: auto;
+    border: 5px solid rgb(200, 10, 44);
+    align-items: center;
+}
+
+.freeTraining--text {
+    color: rgb(249, 249, 251);
+    font-family: 'Circe';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 63px;
+}
+
+.freeTraining--link {
+    color: rgb(249, 249, 251);
+    font-family: 'Circe';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 160px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 40px;
+    background: rgb(200, 10, 44);
+}
+
+.freeTraining--link > p {
+    text-align: center;
+    margin: auto;
+    margin-top: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

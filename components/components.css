@@ -1,0 +1,48 @@
+.pageNavigator--frame_1 {
+    width: 378px;
+    height: 218px;
+    background-image: url(../assets/images/kingsGymPage-image.jpeg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.pageNavigator--frame_2 {
+    width: 378px;
+    height: 223px;
+    background-image: url(../assets/images/kingsGymAction-image.jpeg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.pageNavigator--frame_3 {
+    width: 378px;
+    height: 223px;
+    background-image: url(../assets/images/kingsGymAction2-image.jpeg);
+    display: flex;
+    align-items: center;
+}
+
+.pageNavigator--frame--text {
+    color: rgb(255, 255, 255);
+    font-family: 'RussoOne';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: auto;
+    text-align: left;
+}
+
+.center {
+    margin: auto;
+    width: 298px;
+}
+
+.redWord {
+    color: rgb(200, 10, 44);
+}
+
+

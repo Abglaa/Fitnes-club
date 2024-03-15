@@ -1,0 +1,10 @@
+.activePage {
+    background: radial-gradient(50.00% 50.00% at 50% 50%,rgba(29, 28, 33, 0.68),rgba(29, 28, 33, 0.8) 100%), url(../assets/images/kingsGymPage-image.jpeg);
+    border-top: 5px solid rgb(200, 10, 44);
+    padding-bottom: 1px;
+}
+
+
+
+
+
