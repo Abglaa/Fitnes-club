@@ -1,0 +1,115 @@
+/* Navbar */
+
+.navbar {
+    display: flex;
+    position: fixed;
+    background: #1d1c21de;
+    width: 100%;
+    height: auto;
+    padding: 27px 0px 31px 0px;
+    border-bottom: 3px solid #58585B;
+    justify-content: right;
+    z-index: 999;
+    align-items: center;
+}
+
+.navbar--logo {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    padding-bottom: 30px;
+    border-bottom: 7px solid #CB1642;
+    margin-left: 120px;
+}
+
+.navbar--info {
+    display: flex;
+    gap: 30px;
+    margin-right: 62px;
+    align-items: center;
+}
+
+.navbar--number {
+    color: #F9F9FB;
+    text-decoration: none;
+    font-family: 'Circe';
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.navbar--repeatCalling {
+    color: #F9F9FB;
+    text-decoration: none;
+    font-family: 'Circe';
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 16px;
+    border-radius: 50px;
+    background: #C80A2C;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+
+/* Navbar - burger menu */
+
+.burger-menu_container {
+    display: flex;
+    margin-right: 120px;
+}
+
+#burger-toggle {
+    display: none;
+}
+
+.burger-menu {
+    display: block;
+    width: 30px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .burger-menu span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: rgb(229, 229, 229);
+    position: absolute;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .burger-menu span:nth-child(1) {
+    top: 0;
+  }
+  
+  .burger-menu span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .burger-menu span:nth-child(3) {
+    bottom: 0;
+  }
+  
+  #burger-toggle:checked + .burger-menu span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  #burger-toggle:checked + .burger-menu span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  #burger-toggle:checked + .burger-menu span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  .menu {
+    display: none;
+  }
+  
+  #burger-toggle:checked ~ .menu {
+    display: block;
+    /* Дополнительные стили для отображения меню */
+  }

@@ -45,4 +45,132 @@
     color: rgb(200, 10, 44);
 }
 
+.bgText {
+    position: absolute;
+    text-transform: uppercase;
+    color: rgb(29, 28, 33);
+    font-family: 'RussoOne';
+    font-size: 200px;
+    font-weight: 400;
+    line-height: 241px;
+    text-shadow: 1px 1px 20px rgba(200, 10, 45, 0.253);
+    top: -188px;
+    left: 4%;
+}
 
+.bgPosition {
+    top: -96px;
+    left: 5%;
+}
+
+.bgPosition--2 {
+    top: 760px;
+    left: 15%;
+}
+
+.bgPosition-3 {
+    top: -80px;
+    left: 10%;
+    z-index: 1;
+}
+
+.bgColor {
+    position: absolute;
+    background: linear-gradient(180.00deg, rgba(200, 10, 44, 0) 12.5%,rgba(200, 10, 45, 0.384) 85.417%,rgba(200, 10, 45, 0.61) 100%);
+    width: 100%;
+    height: 341px;
+    z-index: 1;
+}
+
+/* trainers */
+
+.trainersSLiderItemBG-1 {
+    background-image: url(../assets/images/team-1--image.jpg);
+    background-size: cover;
+}
+
+.trainersSLiderItemBG-2 {
+    background-image: url(../assets/images/team-2--image.jpg);
+    background-size: cover;
+}
+
+.trainersSLiderItemBG-3 {
+    background-image: url(../assets/images/team-3--image.jpg);
+    background-size: cover;
+}
+
+.trainersSLiderItemBG-4 {
+    background-image: url(../assets/images/team-4--image.jpg);
+    background-size: cover;
+}
+
+.trainersSLiderItemBG-5 {
+    background-image: url(../assets/images/team-5--image.jpg);
+    background-size: cover;
+}
+
+.trainersSLiderItemBG-6 {
+    background-image: url(../assets/images/team-6--image.jpg);
+    background-size: cover;
+}
+
+.trainersSLiderItemBG-7 {
+    background-image: url(../assets/images/team-7--image.jpg);
+    background-size: cover;
+}
+
+.trainersSLiderItemBG-8 {
+    background-image: url(../assets/images/team-8--image.jpg);
+    background-size: cover;
+}
+
+.trainersSLiderItemBG-9 {
+    background-image: url(../assets/images/team-9--image.jpg);
+    background-size: cover;
+}
+
+.trainersSLiderItemBG-10 {
+    background-image: url(../assets/images/team-10--image.jpg);
+    background-size: cover;
+}
+
+.trainersSLiderItemBG-11 {
+    background-image: url(../assets/images/team-11--image.jpg);
+    background-size: cover;
+}
+
+/* sell card */
+
+.sellCard__bgImg {
+    background-image: url(../assets/images/sellCard-mask--image.png);
+    background-size: cover;
+    width: 290px;
+    height: 483px;
+}
+
+/* Clients */
+
+.itemMoreImage {
+    background-image: url(../assets/images/clientTwo-image.jpg);
+    background-size: cover;
+}
+
+.itemMoreImage-2 {
+    background-image: url(../assets/images/clientOne-image.jpeg);
+    background-size: cover;
+}
+
+.itemMoreImage-3 {
+    background-image: url(../assets/images/clientThree-image.jpg);
+    background-size: cover;
+}
+
+.itemMoreImage-4 {
+    background-image: url(../assets/images/clientFour-image.jpg);
+    background-size: cover;
+}
+
+.itemMoreImage-5 {
+    background-image: url(../assets/images/clientFive-image.jpg);
+    background-size: cover;
+}

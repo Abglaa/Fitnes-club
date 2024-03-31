@@ -6,5 +6,49 @@
 
 
 
+.line {
+    width: 254px;
+    height: 2px;
+    background: linear-gradient(to right, rgb(200, 10, 44), rgb(29, 28, 33));
+}
+
+.lineRight {
+    width: 254px;
+    height: 2px;
+    background: linear-gradient(to left, rgb(200, 10, 44), rgb(29, 28, 33));
+    margin-left: auto;
+}
 
 
+
+.headerUnderLIne {
+    border-bottom: 2px solid linear-gradient(to right, rgb(200, 10, 44), rgb(29, 28, 33));
+    padding-bottom: 24.5px;
+}
+/* Добавление линии с помощью псевдоэлем. ::after в пустой div*/
+.headerUnderLIne::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 254px;
+    height: 2px;
+    background: linear-gradient(to right, rgb(200, 10, 44), rgb(29, 28, 33)); /* Градиент как фон */
+}
+
+.lineTop-2 {
+    position: absolute;
+    top: 230.5px;
+    left: 405px;
+}
+
+.headerLine {
+    position: relative;
+    width: 254px;
+    height: 2px;
+    background: linear-gradient(to left, rgb(29, 28, 33), rgb(200, 10, 44), rgb(29, 28, 33));
+    margin: auto;
+    margin-top: -75px;
+    margin-bottom: 80.5px;
+    z-index: 10;
+}

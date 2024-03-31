@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style links -->
+    <link rel="stylesheet" href="../components/navbar.css">
+    <link rel="stylesheet" href="../styles/core.css">
+    <link rel="stylesheet" href="../styles/home_page.css">
+    <link rel="stylesheet" href="../helpers/helpers_style.css">
+    <link rel="stylesheet" href="../components/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Fitnes club - KING GYM</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar--logo">
+            <a href="../index.html">
+                <img src="../assets/images/navbar-logo--image.png" alt="KINGS GYM">
+            </a>
+        </div>
+        <div class="navbar--info">
+            <a href="#" class="navbar--number">
+                <p>8 (499) 283-45-898 </p>
+            </a>
+            <a href="#" class="navbar--repeatCalling">
+                <p>Обратный звонок</p>
+            </a>
+        </div>
+        <div class="burger-menu_container">
+            <input type="checkbox" id="burger-toggle">
+            <label for="burger-toggle" class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main__container">
+            <img class="backgroundLogo" src="../assets/images/kingGymBackground-image.png" alt="background logo">
+            <div class="leftContent">
+                <h1 class="leftContent--header">фитнес-клуб KING`S GYM</h1>
+                <span class="leftContent--text">Запишись на бесплатную тренировку и мы покажем тебе 
+                    как все у нас устроено, какие мы используем тренажеры и ты сам все испытаешь на себе
+                </span>
+                <form class="leftContent--input" action="../store/submit" method="post">
+                    <div class="formMod">
+                        <input class="leftContent--nameInput" type="text" placeholder="Ваше имя">
+                        <input class="leftContent--nameInput" type="text" placeholder="Телефон">
+                    </div>
+                    <input class="leftContent--submitInput" type="submit" value="Участвовать в акции">
+                </form>
+            </div>
+            <div class="main__footer">
+                <div class="main--sotial">
+                    <h6 class="main--sotial--header">Мы в социальных сетях:</h6>
+                    <div class="main--sotial__leftContent">
+                        <img src="../assets/icons/facebook.png" alt="facebook"class="main--sotial--link facebookSize">
+                        <img src="../assets/icons/vk.png" alt="vk" alt="" class="main--sotial--link vkSize">
+                        <img src="../assets/icons/instagram-icon.png" alt="instagramm" class="main--sotial--link">
+                        <img src="../assets/icons/wapp-icon.png" alt="wapp" class="main--sotial--link">
+                    </div>
+                </div>
+                <div class="pageNavigator">
+                    <div class="pageNavigator--frame_1 activePage">
+                        <h3 class="pageNavigator--frame--text">Фитнес клуб King’s Gym</h3>
+                    </div>
+                    <div class="pageNavigator--frame_2">
+                        <h3 class="pageNavigator--frame--text center">Акция №1. Функциональный тренинг (CrossFit)</h3>
+                    </div>
+                    <div class="pageNavigator--frame_3">
+                        <h3 class="pageNavigator--frame--text center">Акция №2. King’s Gym тренажерный зал</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="inventory">
+        <h1 class="bgText">Преимущества</h1>
+        <div class="container">
+            <div>
+                <h2 class="inventory--header">Профессиональное оснащение и комфорт</h2>
+                <div class="headerLine"></div>
+            </div>
+            <div class="inventoryFrame">
+                <div class="frameContainer">
+                    <div class="frame">
+                        <div class="frame__content">
+                            <h2 class="frame--number">#1</h2>
+                            <h6 class="frame--header">Тренажерный <b class="redWord">зал</b></h6>
+                            <span class="frame--text">
+                                Самый большой и оснащенный тренажерный зал в городе площадью 600 м²
+                            </span>
+                        </div>
+                    </div>
+                    <div class="frame">
+                        <div class="frame__content">
+                            <h2 class="frame--number">#2</h2>
+                            <h6 class="frame--header">Профессиональный <b class="redWord">ринг</b></h6>
+                            <span class="frame--text">
+                                Занимайтесь не только фитнесом! В нашем зале есть профессиональная зона единоборств
+                            </span>
+                        </div>
+                    </div>
+                    <div class="frame">
+                        <div class="frame__content">
+                            <h2 class="frame--number">#3</h2>
+                            <h6 class="frame--header">Женские <b class="redWord">направления</b></h6>
+                            <span class="frame--text">
+                                Отдельные программы для женщин и профессиональные тренеры
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="frameContainer">
+                    <div class="frame">
+                        <div class="frame__content">
+                            <h2 class="frame--number">#4</h2>
+                            <h6 class="frame--header">Проведение  <b class="redWord">турниров</b></h6>
+                            <span class="frame--text">
+                                В нашем клубе проводятся чемпионаты России и Европы по пауэрлифтингу
+                            </span>
+                        </div>
+                    </div>
+                    <div class="frame">
+                        <div class="frame__content">
+                            <h2 class="frame--number">#5</h2>
+                            <h6 class="frame--header">Обширная  <b class="redWord">кардиозона</b></h6>
+                            <span class="frame--text">
+                                Не стойте в очереди на беговую дорожку. У нас большое количество тренеров
+                            </span>
+                        </div>
+                    </div>
+                    <div class="frame">
+                        <div class="frame__content">
+                            <h2 class="frame--number">#6</h2>
+                            <h6 class="frame--header">Детские <b class="redWord"> направления</b></h6>
+                            <span class="frame--text">
+                                Присутствуют спортивные программы для детей разного возвраста
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="freeTraining">
+                <div class="freeTrainingImages__block">
+                    <img src="../assets/images/freeTrainingVtoroySloy-image.png" alt="vtoroy sloy" class="freeTraining--image__absolute">
+                    <img src="../assets/images/freeTraining-image.jpeg" alt="free training xXx" class="freeTraining--image">
+                </div>
+                <span class="freeTraining--text">Запишись на <b class="redWord">бесплатную</b> тренировку</span>
+                <a href="#" class="freeTraining--link ">
+                    <p>Записаться</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="gallery">
+        <h1 class="bgText bgPosition">галерея клуба</h1>
+        <div class="gallery--header__container">
+            <div class="gallery--header__top">
+                <h2 class="gallery--header">Фото нашего фитнес-центра</h2>
+                <div class="line lineTop-2 gallery--header__top "></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="secondContainer">
+                <div class="gallery--frame">
+                    <span class="gallery--frame--text">
+                        В фитнес клубе King's Gym, кроме полностью оборудованных залов силовых тренажеров представлена возможность посетить SPA Зону (Хамам, финская сауна , массажный кабинет) различные танцевальные, аэробные и силовые классы, а так же единоборства: Бокс, Тайский бокс, ММА , Борьба
+                    </span>
+                    <img src="../assets/images/galleryFrame-image.jpeg" alt="gallery image" class="gallery--frame--image">
+                </div>
+                <div class="gallery--slider__headerContainer">
+                    <div class="gallery--slider__container">
+                        <div class="gallery--slider">
+                            <div class="gallery--slider--item">
+                                <img src="../assets/images/sliderIMG-1.jpeg" alt="slider img">
+                            </div>
+                            <div class="gallery--slider--item">
+                                <img src="../assets/images/sliderIMG-2.jpeg" alt="slider img">
+                            </div>
+                            <div class="gallery--slider--item">
+                                <img src="../assets/images/sliderIMG-3.jpeg" alt="slider img">
+                            </div>
+                            <div class="gallery--slider--item">
+                                <img src="../assets/images/sliderIMG-4.jpg" alt="slider img">
+                            </div>
+                            <div class="gallery--slider--item">
+                                <img src="../assets/images/sliderIMG-5.jpg" alt="slider img">
+                            </div>
+                            <div class="gallery--slider--item">
+                                <img src="../assets/images/sliderIMG-6.jpg" alt="slider img">
+                            </div>
+                            <div class="gallery--slider--item">
+                                 <img src="../assets/images/sliderIMG-7.jpg" alt="slider img">
+                            </div>
+                            <div class="gallery--slider--item">
+                                <img src="../assets/images/sliderIMG-8.jpg" alt="slider img">
+                            </div>
+                            <div class="gallery--slider--item">
+                                <img src="../assets/images/sliderIMG-9.jpg" alt="slider img">
+                            </div>
+                            <div class="gallery--slider--item">
+                                <img src="../assets/images/sliderIMG-10.jpg" alt="slider img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery--slider__bottomContent">
+                        <div class="count__container">
+                            <div class="count"></div>
+                            <div class="amount">/10</div>
+                        </div>
+                        <div class="arrow__container">
+                            <img class="arrow--prev" src="../assets/images/prevArrow-image.png" alt="">
+                            <img class="arrow--next" src="../assets/images/nextArrow-image.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="bgText bgPosition--2">статистика</h1>
+        <div class="galleryInfo--header__container">
+            <h2 class="galleryInfo--header headerUnderLIne">За неделю в наших клубах</h2>
+        </div>
+        <div class="container">
+            <div class="secondContentGallery">
+                <div class="gallery--infoFrame">
+                    <div class="infoFrame">
+                        <h2 class="infoFrame--header"><b>476</b> ккал</h2>
+                        <div class="infoFrame__line"></div>
+                        <span class="infoFrame--text">сжигаются за час при нахождении в воде</span>
+                    </div>
+                    <div class="infoFrame">
+                        <h2 class="infoFrame--header"><b>144</b> подростка</h2>
+                        <div class="infoFrame__line"></div>
+                        <span class="infoFrame--text">выбирают бассейн любимым видом активного спорта</span>
+                    </div>
+                    <div class="infoFrame">
+                        <h2 class="infoFrame--header"><b>25</b> кг</h2>
+                        <div class="infoFrame__line"></div>
+                        <span class="infoFrame--text">составляет рост мышечной массы наших клиентов</span>
+                    </div>
+                    <div class="infoFrame">
+                        <h2 class="infoFrame--header"><b>33,3к</b> тонны</h2>
+                        <div class="infoFrame__line"></div>
+                        <span class="infoFrame--text">суммарно поднимают все клиенты</span>
+                    </div>
+                    <div class="infoFrame">
+                        <h2 class="infoFrame--header"><b>476</b> ккал</h2>
+                        <div class="infoFrame__line"></div>
+                        <span class="infoFrame--text">сжигаются за час при нахождении в воде</span>
+                    </div>
+    
+                    <div class="infoFrame">
+                        <h2 class="infoFrame--header"><b>144</b> подростка</h2>
+                        <div class="infoFrame__line"></div>
+                        <span class="infoFrame--text">выбирают бассейн любимым видом активного спорта</span>
+                    </div>
+                    <div class="infoFrame">
+                        <h2 class="infoFrame--header"><b>25</b> кг</h2>
+                        <div class="infoFrame__line"></div>
+                        <span class="infoFrame--text">составляет рост мышечной массы наших клиентов</span>
+                    </div>
+                    <div class="infoFrame">
+                        <h2 class="infoFrame--header"><b>33,3к</b> тонны</h2>
+                        <div class="infoFrame__line"></div>
+                        <span class="infoFrame--text">суммарно поднимают все клиенты</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="trainers">
+        <h1 class="trainers--header">наша Команда</h1>
+        <div class="container">
+            <h2 class="trainers--secondHeader">Тренеры фитнес-центра</h2>
+            <div class="line"></div>
+            <div class="trainers__container">
+                <div class="trainers--slider--arrows">
+                    <img class="teamArrow--prev" src="../assets/images/prevArrow-image.png" alt="">
+                    <img class="teamArrow--next" src="../assets/images/nextArrow-image.png" alt="">
+                </div>
+                <div class="trainers--slider">
+                    <div class="trainers--slider--item trainersSLiderItemBG-1">
+                    <div class="bgColor"></div>
+                        <div class="item--rightInfo">
+                            <span class="item--rightInfo--text">Клуб Единоборств</span>
+                            <div class="item--rightInfo__img">
+                                <img src="../assets/icons/team-icon.png" alt="KG icon">
+                            </div>
+                        </div>
+                        <div class="item--underContent">
+                            <h6 class="item--underContent--name">Максим Плотников</h6>
+                            <span class="item--underContent--lvl">Стаж: 5 лет</span>
+                        </div>
+                    </div>
+                    <div class="trainers--slider--item trainersSLiderItemBG-2">
+                    <div class="bgColor"></div>
+                        <div class="item--rightInfo">
+                            <span class="item--rightInfo--text">Тренажерный зал</span>
+                            <div class="item--rightInfo__img">
+                                <img src="../assets/icons/team-icon.png" alt="KG icon">
+                            </div>
+                        </div>
+                        <div class="item--underContent">
+                            <h6 class="item--underContent--name">Евгений Кузнецов</h6>
+                            <span class="item--underContent--lvl">Стаж: 8 лет</span>
+                        </div>
+                    </div>
+                    <div class="trainers--slider--item trainersSLiderItemBG-3">
+                    <div class="bgColor"></div>
+                        <div class="item--rightInfo">
+                            <span class="item--rightInfo--text">Бассейн</span>
+                            <div class="item--rightInfo__img">
+                                <img src="../assets/icons/team-icon.png" alt="KG icon">
+                            </div>
+                        </div>
+                        <div class="item--underContent">
+                            <h6 class="item--underContent--name">Никита Сергеев</h6>
+                            <span class="item--underContent--lvl">Стаж: 4 года</span>
+                        </div>
+                    </div>
+                    <div class="trainers--slider--item trainersSLiderItemBG-4">
+                    <div class="bgColor"></div>
+                        <div class="item--rightInfo">
+                            <span class="item--rightInfo--text">ABS+Stretch</span>
+                            <div class="item--rightInfo__img">
+                                <img src="../assets/icons/team-icon.png" alt="KG icon">
+                            </div>
+                        </div>
+                        <div class="item--underContent">
+                            <h6 class="item--underContent--name">Вохмин Дмитрий</h6>
+                            <span class="item--underContent--lvl">Стаж: 6 лет</span>
+                        </div>
+                    </div>
+                    <div class="trainers--slider--item trainersSLiderItemBG-5">
+                        <div class="bgColor"></div>
+                            <div class="item--rightInfo">
+                                <span class="item--rightInfo--text">Гачи Мучи</span>
+                                <div class="item--rightInfo__img">
+                                    <img src="../assets/icons/team-icon.png" alt="KG icon">
+                                </div>
+                            </div>
+                            <div class="item--underContent">
+                                <h6 class="item--underContent--name">Билли Хэрингтон</h6>
+                                <span class="item--underContent--lvl">Стаж: 20 лет</span>
+                            </div>
+                        </div>
+                        <div class="trainers--slider--item trainersSLiderItemBG-6">
+                        <div class="bgColor"></div>
+                            <div class="item--rightInfo">
+                                <span class="item--rightInfo--text">Workout</span>
+                                <div class="item--rightInfo__img">
+                                    <img src="../assets/icons/team-icon.png" alt="KG icon">
+                                </div>
+                            </div>
+                            <div class="item--underContent">
+                                <h6 class="item--underContent--name">Дикий Пожарник</h6>
+                                <span class="item--underContent--lvl">Стаж: 10 лет</span>
+                            </div>
+                        </div>
+                        <div class="trainers--slider--item trainersSLiderItemBG-7">
+                        <div class="bgColor"></div>
+                            <div class="item--rightInfo">
+                                <span class="item--rightInfo--text">Жим веса</span>
+                                <div class="item--rightInfo__img">
+                                    <img src="../assets/icons/team-icon.png" alt="KG icon">
+                                </div>
+                            </div>
+                            <div class="item--underContent">
+                                <h6 class="item--underContent--name">Химик Сарычев</h6>
+                                <span class="item--underContent--lvl">Стаж: 13 лет</span>
+                            </div>
+                        </div>
+                        <div class="trainers--slider--item trainersSLiderItemBG-8">
+                        <div class="bgColor"></div>
+                            <div class="item--rightInfo">
+                                <span class="item--rightInfo--text">Исскуство врать</span>
+                                <div class="item--rightInfo__img">
+                                    <img src="../assets/icons/team-icon.png" alt="KG icon">
+                                </div>
+                            </div>
+                            <div class="item--underContent">
+                                <h6 class="item--underContent--name">Полковник Бустеренко</h6>
+                                <span class="item--underContent--lvl">Стаж: 6 лет</span>
+                            </div>
+                        </div>
+                        <div class="trainers--slider--item trainersSLiderItemBG-9">
+                        <div class="bgColor"></div>
+                            <div class="item--rightInfo">
+                                <span class="item--rightInfo--text">Как набрать массу</span>
+                                <div class="item--rightInfo__img">
+                                    <img src="../assets/icons/team-icon.png" alt="KG icon">
+                                </div>
+                            </div>
+                            <div class="item--underContent">
+                                <h6 class="item--underContent--name">Вова Братишкин</h6>
+                                <span class="item--underContent--lvl">Стаж: -</span>
+                            </div>
+                        </div>
+                        <div class="trainers--slider--item trainersSLiderItemBG-10">
+                        <div class="bgColor"></div>
+                            <div class="item--rightInfo">
+                                <span class="item--rightInfo--text">Тяжелая атлетика</span>
+                                <div class="item--rightInfo__img">
+                                    <img src="../assets/icons/team-icon.png" alt="KG icon">
+                                </div>
+                            </div>
+                            <div class="item--underContent">
+                                <h6 class="item--underContent--name">Шон Рой</h6>
+                                <span class="item--underContent--lvl">Стаж: 30 лет</span>
+                            </div>
+                        </div>
+                        <div class="trainers--slider--item trainersSLiderItemBG-11">
+                        <div class="bgColor"></div>
+                            <div class="item--rightInfo">
+                                <span class="item--rightInfo--text">Супер Диета</span>
+                                <div class="item--rightInfo__img">
+                                    <img src="../assets/icons/team-icon.png" alt="KG icon">
+                                </div>
+                            </div>
+                            <div class="item--underContent">
+                                <h6 class="item--underContent--name">Дмитрий Куплинов</h6>
+                                <span class="item--underContent--lvl">Стаж: 30 лет</span>
+                            </div>
+                        </div>
+                    </div>
+                    <input id="teamRange" type="range" min="1" value="1" step="1">
+                </div>
+        </div>
+    </div>
+    <div class="subscribe">
+        <h1 class="bgText bgPosition-3">абонементы</h1>
+        <div class="subscribe--secondHeader">
+            <h2 class="subscribe--secondHeader__header">Собери свой абонемент</h2>
+            <p class="subscribe--secondHeader__paragrapf">и получи расчет стоимости</p>
+            <div class="line"></div>
+        </div>
+        <div class="subscribe__content">
+            <div class="subscribe--leftContent"></div>
+            <div class="subscribe--rightContent">
+                <div class="sellCard--header">
+                    <img src="../assets/icons/procent-icon.png" alt="%">
+                    <span>
+                        Ваша скидка: 15%
+                    </span>
+                </div>
+                <div class="sellCard">
+                    <div class="sellCard__bgImg"></div>
+                    <p class="sellCard--text">
+                        Собери свою собственную карту и получи скидку до 30%
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="readySubscribe">
+        <h1 class="bgText bgPosition-3">абонементы</h1>
+        <div class="readySubscribe--secondHeader">
+            <h2 class="readySubscribe--secondHeader__header">готовые абонименты</h2>
+            <div class="line"></div>
+        </div>
+        <div class="container">
+            <div class="subscription__container">
+                <div class="subscription">
+                    <div class="subscription--content">
+                        <img src="../assets/images/subscription-yellow--image.png" alt="абонемент" class="subscription--image">
+                        <h6 class="subscription--header">Утро</h6>
+                        <h4 class="subscription--infoHeader">Утро с 8 до 14</h4>
+                        <ul class="subscription--list">
+                            <li class="list--info"><b>+</b> Посещение с 8:00 до 23:00</li>
+                            <li class="list--info"><b>+</b> Первичный инструктаж с тренером</li>
+                            <li class="list--info"><b>+</b> Доступ в клубы всего города</li>
+                            <li class="list--info"><b>+</b> Запись на групповые тренировки</li>
+                            <li class="list--info"><b>+</b> Полотенце на каждое посещение</li>
+                            <li class="list--info"><b>+</b> Персональный шкаф</li>
+                            <li class="list--info"><b>+</b> Заморозка 30 дней</li>
+                            <li class="list--info"><b>+</b> Парковка</li>
+                        </ul>
+                        <a href="#" class="subscription--calculation">
+                            <p class="subscription--calculation__text">Рассчитать стоимость</p>
+                        </a>
+                        <p class="subscription--price">2 000 ₽ / мес</p>
+                    </div>
+                </div>
+                <div class="subscription">
+                    <div class="subscription--content">
+                        <img src="./assets/images/subscription-blue--image.png" alt="абонемент" class="subscription--image">
+                        <h6 class="subscription--header">День</h6>
+                        <h4 class="subscription--infoHeader">День с 8 до 17</h4>
+                        <ul class="subscription--list">
+                            <li class="list--info"><b>+</b> Посещение с 8:00 до 23:00</li>
+                            <li class="list--info"><b>+</b> Первичный инструктаж с тренером</li>
+                            <li class="list--info"><b>+</b> Доступ в клубы всего города</li>
+                            <li class="list--info"><b>+</b> Запись на групповые тренировки</li>
+                            <li class="list--info"><b>+</b> Полотенце на каждое посещение</li>
+                            <li class="list--info"><b>+</b> Персональный шкаф</li>
+                            <li class="list--info"><b>+</b> Заморозка 30 дней</li>
+                            <li class="list--info"><b>+</b> Парковка</li>
+                        </ul>
+                        <a href="#" class="subscription--calculation">
+                            <p class="subscription--calculation__text">Рассчитать стоимость</p>
+                        </a>
+                        <p class="subscription--price">2 000 ₽ / мес</p>
+                    </div>
+                </div>
+                <div class="subscription">
+                    <div class="subscription--content">
+                        <img src="../assets/images/subscription-black--image.png" alt="абонемент" class="subscription--image">
+                        <h6 class="subscription--header">Полного дня</h6>
+                        <h4 class="subscription--infoHeader">Полная с 8 до 14</h4>
+                        <ul class="subscription--list">
+                            <li class="list--info"><b>+</b> Посещение с 8:00 до 23:00</li>
+                            <li class="list--info"><b>+</b> Первичный инструктаж с тренером</li>
+                            <li class="list--info"><b>+</b> Доступ в клубы всего города</li>
+                            <li class="list--info"><b>+</b> Запись на групповые тренировки</li>
+                            <li class="list--info"><b>+</b> Полотенце на каждое посещение</li>
+                            <li class="list--info"><b>+</b> Персональный шкаф</li>
+                            <li class="list--info"><b>+</b> Заморозка 30 дней</li>
+                            <li class="list--info"><b>+</b> Парковка</li>
+                        </ul>
+                        <a href="#" class="subscription--calculation">
+                            <p class="subscription--calculation__text">Рассчитать стоимость</p>
+                        </a>
+                        <p class="subscription--price">2 000 ₽ / мес</p>
+                    </div>
+                </div>
+                <div class="subscription">
+                    <div class="subscription--content">
+                        <img src="../assets/images/subscription-orange--image.png" alt="абонемент" class="subscription--image">
+                        <h6 class="subscription--header">Выходного дня</h6>
+                        <h4 class="subscription--infoHeader">Сб-Вс с 8 до 24</h4>
+                        <ul class="subscription--list">
+                            <li class="list--info"><b>+</b> Посещение с 8:00 до 23:00</li>
+                            <li class="list--info"><b>+</b> Первичный инструктаж с тренером</li>
+                            <li class="list--info"><b>+</b> Доступ в клубы всего города</li>
+                            <li class="list--info"><b>+</b> Запись на групповые тренировки</li>
+                            <li class="list--info"><b>+</b> Полотенце на каждое посещение</li>
+                            <li class="list--info"><b>+</b> Персональный шкаф</li>
+                            <li class="list--info"><b>+</b> Заморозка 30 дней</li>
+                            <li class="list--info"><b>+</b> Парковка</li>
+                        </ul>
+                        <a href="#" class="subscription--calculation">
+                            <p class="subscription--calculation__text">Рассчитать стоимость</p>
+                        </a>
+                        <p class="subscription--price">2 000 ₽ / мес</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="reviews">
+        <h1 class="reviews--header">наши клиенты</h1>
+        <div class="container-2">
+            <div class="reviews--secondHeader">
+                <h2 class="reviews--secondHeader__header">готовые абонименты</h2>
+                <div class="lineRight"></div>
+            </div>
+            <div class="reviews--clients">
+                <div class="clients--item">
+                    <div class="clients-leftContent">
+                        <div class="clients--slider">
+
+                            <div class="clients--slider--item">
+                                <div class="item__rightContent">
+                                    <div class="item--image itemMoreImage">
+                                        <img src="../assets/icons/instagramCLients-icon.png" alt="instagram" class="item--icon">
+                                    </div>
+                                </div>
+                                <div class="item__leftContent">
+                                    <h4 class="item--header">@Natalia_roskosh</h4>
+                                    <span class="item--text">
+                                        Фитнес клуб сделан в особом стиле, который не встретишь в
+                                        других, это несомненно цепляет. Но помимо красивого
+                                        внешнего вида, в клубе новое оборудование, что не мало
+                                        важно. Хороший и квалифицированный тренерский состав.
+                                        Хорошо и разнообразно подобраны групповые. Безумно
+                                        довольна выбором именно этого фитнес клуба King's Gym!
+                                    </span>
+                                    <div class="clients--slider__arrows">
+                                        <img src="../assets/images/prevArrow-image.png" alt="prev" class="clientsArrow--prev">
+                                        <img src="../assets/images/nextArrow-image.png" alt="next" class="clientsArrow--next">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clients--slider--item">
+                                <div class="item__rightContent">
+                                    <div class="item--image itemMoreImage-2">
+                                        <img src="../assets/icons/instagramCLients-icon.png" alt="instagram" class="item--icon">
+                                    </div>
+                                </div>
+                                <div class="item__leftContent">
+                                    <h4 class="item--header">@Maria_malyar</h4>
+                                    <span class="item--text">
+                                        Фитнес клуб сделан в особом стиле, который не встретишь в
+                                        других, это несомненно цепляет. Но помимо красивого
+                                        внешнего вида, в клубе новое оборудование, что не мало
+                                        важно. Хороший и квалифицированный тренерский состав.
+                                        Хорошо и разнообразно подобраны групповые. Безумно
+                                        довольна выбором именно этого фитнес клуба King's Gym!
+                                    </span>
+                                    <div class="clients--slider__arrows">
+                                        <img src="../assets/images/prevArrow-image.png" alt="prev" class="clientsArrow--prev">
+                                        <img src="../assets/images/nextArrow-image.png" alt="next" class="clientsArrow--next">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clients--slider--item">
+                                <div class="item__rightContent">
+                                    <div class="item--image itemMoreImage-3">
+                                        <img src="../assets/icons/instagramCLients-icon.png" alt="instagram" class="item--icon">
+                                    </div>
+                                </div>
+                                <div class="item__leftContent">
+                                    <h4 class="item--header">@Orlov.universal</h4>
+                                    <span class="item--text">
+                                        Фитнес клуб сделан в особом стиле, который не встретишь в
+                                        других, это несомненно цепляет. Но помимо красивого
+                                        внешнего вида, в клубе новое оборудование, что не мало
+                                        важно. Хороший и квалифицированный тренерский состав.
+                                        Хорошо и разнообразно подобраны групповые. Безумно
+                                        довольна выбором именно этого фитнес клуба King's Gym!
+                                    </span>
+                                    <div class="clients--slider__arrows">
+                                        <img src="../assets/images/prevArrow-image.png" alt="prev" class="clientsArrow--prev">
+                                        <img src="../assets/images/nextArrow-image.png" alt="next" class="clientsArrow--next">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clients--slider--item">
+                                <div class="item__rightContent">
+                                    <div class="item--image itemMoreImage-4">
+                                        <img src="../assets/icons/instagramCLients-icon.png" alt="instagram" class="item--icon">
+                                    </div>
+                                </div>
+                                <div class="item__leftContent">
+                                    <h4 class="item--header">@Mika_meet</h4>
+                                    <span class="item--text">
+                                        Фитнес клуб сделан в особом стиле, который не встретишь в
+                                        других, это несомненно цепляет. Но помимо красивого
+                                        внешнего вида, в клубе новое оборудование, что не мало
+                                        важно. Хороший и квалифицированный тренерский состав.
+                                        Хорошо и разнообразно подобраны групповые. Безумно
+                                        довольна выбором именно этого фитнес клуба King's Gym!
+                                    </span>
+                                    <div class="clients--slider__arrows">
+                                        <img src="../assets/images/prevArrow-image.png" alt="prev" class="clientsArrow--prev">
+                                        <img src="../assets/images/nextArrow-image.png" alt="next" class="clientsArrow--next">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clients--slider--item">
+                                <div class="item__rightContent">
+                                    <div class="item--image itemMoreImage-5">
+                                        <img src="../assets/icons/instagramCLients-icon.png" alt="instagram" class="item--icon">
+                                    </div>
+                                </div>
+                                <div class="item__leftContent">
+                                    <h4 class="item--header">@Jhenya_carskih</h4>
+                                    <span class="item--text">
+                                        Фитнес клуб сделан в особом стиле, который не встретишь в
+                                        других, это несомненно цепляет. Но помимо красивого
+                                        внешнего вида, в клубе новое оборудование, что не мало
+                                        важно. Хороший и квалифицированный тренерский состав.
+                                        Хорошо и разнообразно подобраны групповые. Безумно
+                                        довольна выбором именно этого фитнес клуба King's Gym!
+                                    </span>
+                                    <div class="clients--slider__arrows">
+                                        <img src="../assets/images/prevArrow-image.png" alt="prev" class="clientsArrow--prev">
+                                        <img src="../assets/images/nextArrow-image.png" alt="next" class="clientsArrow--next">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input id="clientsRange" type="range" min="1" value="1" step="1">
+                    <div class="clients--rightContent">
+                        <a href="#" class="clients--link">
+                            <p class="clients--link--text">Оставить отзыв</p>
+                        </a>
+                        <ul class="clients--rightContent__clientsList">
+                            <li tabindex="0" class="clientsList">@natalia_roskosh</li>
+                            <li tabindex="0" class="clientsList">@maria_malyar</li>
+                            <li tabindex="0" class="clientsList">@orlov.universal</li>
+                            <li tabindex="0" class="clientsList">@mika_meet</li>
+                            <li tabindex="0" class="clientsList">@jhenya_carskih</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .map> -->
+    <!-- .footer> -->
+
+
+</body>
+<!-- connect JQuerry -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<!-- connection slider Slick -->
+<script src="../helpers/libraries/slick.min.js"></script>
+<!-- connect our js file -->
+<script src="../helpers/slider/slider.js"></script>
+<script src="../helpers/secondContentGallery_slider/runningSLider.js"></script>
+<script src="../helpers/teamSLider/teamSlider.js"></script>
+<script src="../helpers/clientsSlider/clientsSLider.js"></script>
+
+
+</html>
