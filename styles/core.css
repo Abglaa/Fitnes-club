@@ -1,9 +1,9 @@
 html, body {
     width: 100%;
     height: auto;
-    margin: 0;
-    padding: 0;
     overflow-x: hidden;
+    padding: 0;
+    margin: 0;
 }
 
 html {
@@ -13,6 +13,16 @@ html {
     -webkit-user-select: none;
     user-select: none;
 }
+
+@font-face {
+    font-family: 'RussoOne';
+    src: url(../assets/fonts/RussoOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'Circe';
+    src: url(../assets/fonts/CirceThin.ttf);
+}
+
 
 .main__container {
     /* background: rgba(220, 20, 60, 0.329); */
@@ -35,12 +45,13 @@ html {
 }
 
 .container-2 {
+    position: relative;
     display: flex;
     flex-direction: column;
     max-width: 1110px;
     height: auto;
     margin: auto;
-    /* background: gold; */
+    /* background: rgba(255, 217, 0, 0.705); */
     z-index: 100;
 }
 

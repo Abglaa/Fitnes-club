@@ -1,14 +1,5 @@
-@font-face {
-    font-family: 'RussoOne';
-    src: url(../assets/fonts/RussoOne-Regular.ttf);
-}
-@font-face {
-    font-family: 'Circe';
-    src: url(../assets/fonts/CirceThin.ttf);
-}
-
 body {
-    background: #1D1C21;
+    background: #704efa;
     box-sizing: border-box;
 }
 
@@ -256,6 +247,7 @@ body {
     margin: auto;
     border: 5px solid rgb(200, 10, 44);
     align-items: center;
+    padding-right: 65px;
 }
 
 .freeTraining--text {
@@ -268,6 +260,7 @@ body {
     text-align: left;
     margin-left: 40px;
     margin-right: 63px;
+    white-space: nowrap;
 }
 
 .freeTraining--link {
@@ -339,6 +332,7 @@ body {
 .secondContainer {
     display: flex;
     margin-top: 587px;
+    z-index: 1;
 }
 
 .gallery--frame {
@@ -1161,46 +1155,361 @@ input[type=range]::-webkit-slider-thumb:hover {
     background-image: url(../assets/images/nextArrowOnHover-image.png);
 }
 
+/* Address */
+
+.address {
+    position: relative;
+    display: flex;
+    max-width: 1920px;
+    height: auto;
+    margin: auto;
+    padding-top: 344px;
+    margin-bottom: 173px;
+}
+
+.address--header {
+    position: absolute;
+    text-transform: uppercase;
+    color: rgb(29, 28, 33);
+    font-family: 'RussoOne';
+    font-size: 200px;
+    font-weight: 400;
+    line-height: 241px;
+    text-shadow: 1px 1px 20px rgba(200, 10, 45, 0.253);
+    top: 0;
+    left: 0.1%;
+    white-space: nowrap;
+}
+
+.address--secondHeader {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    z-index: 1;
+    margin-bottom: 80.5px;
+}
+
+.address--secondHeader > div.line {
+    margin-left: auto;
+}
+
+.address--secondHeader__header {
+    color: rgb(255, 255, 255);
+    font-family: 'RussoOne';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: left;
+    text-transform: uppercase;
+    /* margin-left: auto; */
+}
+
+.branch {
+    display: flex;
+    max-width: 1110px;
+    height: auto;
+    gap: 100px;
+}
+
+.branch--frame {
+    max-width: 303px;
+    height: 97px;
+    text-align: left;
+}
+
+.branch--frame--header {
+    color: rgb(249, 249, 251);
+    font-family: 'Circe';
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+p.branch--frame--text {
+    color: rgb(249, 249, 251);
+    font-family: 'Circe';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Map */
+
+.map > iframe {
+    width: 100%;
+    height: 430px;
+}
+
+.mailFrame {
+    position: absolute;
+    display: flex;
+    max-width: 730px;
+    height: 168px;
+    box-shadow: 0px 7px 40px 0px rgba(200, 10, 44, 0.6);
+    background: rgb(37, 35, 42);
+    justify-content: center;
+    left: 0;
+    top: -525px;
+    padding: 0 40px 0 40px;
+}
+
+
+.mapContent--underLine {
+    display: flex;
+    gap: 39px;
+    border-bottom: 3px solid rgb(200, 10, 44);
+}
+
+.mailFrame--leftContent {
+    display: flex;
+    flex-direction: column;
+    max-width: 206px;
+    height: auto;
+    padding-top: 21px;
+}
+
+.mailFrame--number {
+    text-decoration: none;
+    color: rgb(249, 249, 251);
+    font-family: 'Circe';
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.mailFrame--link{
+    text-decoration: none;
+    width: 160px;
+    height: 40px;
+    color: rgb(249, 249, 251);
+    font-family: 'Circe';
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.mailFrame--link > p {
+    border-radius: 40px;
+    background: rgb(200, 10, 44);
+    padding: 8px 16px;
+}
+
+
+.mailFrame--rightContent {
+    display: flex;
+    flex-direction: column;
+    max-width: 402px;
+    height: auto;
+    justify-content: center;
+}
+
+.rightContent__mail {
+    color: rgb(249, 249, 251);
+    font-family: 'Circe';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    margin: 0;
+    margin-bottom: 18px;
+}
+
+.rightContent__text {
+    display: flex;
+    max-width: 402px;
+    gap: 15px;
+}
+
+.rightContent__text > span {
+    color: rgb(249, 249, 251);
+    font-family: 'Circe';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    max-width: 1920px;
+    height: auto;
+    margin: auto;
+    align-items: center;
+    padding: 50px 120px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+.footer--logo {
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: 'RussoOne';
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.footer--logo > b {
+    color: rgb(200, 10, 44);
+}
 
 
 
+.footer--info {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.footer--links {
+    display: flex;
+    gap: 10px;
+}
+
+.footer--text {
+    color: rgb(249, 249, 251);
+    font-family: 'Circe';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.footer--links__link {
+    width: 18px;
+    height: 18px;
+    padding: 11px;  
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.facebookFooterSize {
+    width: 11px;
+    height: 20px;
+    padding: 10px 14px;
+}
+
+.vkFooterSize {
+    width: 19px;
+    height: 10px;
+    padding: 15px 10px;
+}
 
 
+.footer--connection {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.footer--number {
+    text-decoration: none;
+    color: rgb(249, 249, 251);
+    font-family: 'Circe';
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer--link {
+    text-decoration: none;
+    color: rgb(249, 249, 251);
+    font-family: 'Circe';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.footer--link > p {
+    border-radius: 40px;
+    padding: 8px 16px;
+    background: rgb(200, 10, 44);
+}
+
+/* Pay footer */
+
+.payFooter {
+    display: flex;
+    max-width: 1920px;
+    height: auto;
+    padding: 28px 120px 27px 120px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
 
 
+.byKINGSGYM {
+    color: rgb(102, 100, 115);
+    font-family: 'Circe';
+    font-size: 12px;
+    font-weight: 600;
+}
 
 
+.payFooter--content {
+    display: flex;
+    gap: 14px;
+}
+
+.payFooter--sotial {
+    display: flex;
+    gap: 108px;
+    align-items: center;
+}
+
+.payFooter--sotial__link {
+    text-decoration: none;
+    color: rgb(249, 249, 251);
+    font-family: 'Circe';
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.bankCards {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+.card__1 {
+    width: 64.95px;
+    height: 18.75px;
+}
+.card__2 {
+    width: 32.45px;
+    height: 25px;
+}
+.card__3 {
+    width: 32.15px;
+    height: 25px;
+}
+.card__4 {
+    width: 57.9px;
+    height: 18.75px;
+}
+.card_5 {
+    width: 25.66px;
+    height: 25px;
+}
+.card_6 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
 
 
+.company {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
 
+.company--name {
+    color: rgb(102, 100, 115);
+    font-family: 'Circe';
+    font-size: 12px;
+    font-weight: 600;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.company--logo {
+    width: 75px;
+    height: 20px;
+}
