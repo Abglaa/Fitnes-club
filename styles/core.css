@@ -14,6 +14,16 @@ html {
     user-select: none;
 }
 
+@font-face {
+    font-family: 'RussoOne';
+    src: url(../assets/fonts/RussoOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'Circe';
+    src: url(../assets/fonts/CirceThin.ttf);
+}
+
+
 .main__container {
     /* background: rgba(220, 20, 60, 0.329); */
     max-width: 1664px;
