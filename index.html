@@ -2,54 +2,94 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- style links -->
-    <link rel="stylesheet" href="./components/navbar.css">
-    <link rel="stylesheet" href="./styles/core.css">
+    <title>Title</title>
     <link rel="stylesheet" href="./styles/index.css">
-    <title>Fitnes club - KING GYM</title>
+    <link rel="stylesheet" href="./styles/core.css">
+    <link rel="stylesheet" href="./components/components.css">
+    <link rel="stylesheet" href="./components/navbar.css">
+    <link rel="stylesheet" href="./helpers/helpers_style.css">
+    <link rel="stylesheet" href="./styles/home_page.css">
 </head>
 <body>
-    <div class="navbar">
-        <div class="navbar--logo">
-            <img src="./assets/images/navbar-logo--image.png" alt="KINGS GYM">
+<div class="navbar">
+    <div class="navbar--logo">
+        <a href="../index.html">
+            <img src="../assets/images/navbar-logo--image.png" alt="KINGS GYM">
+        </a>
+    </div>
+    <div class="navbar--info">
+        <div class="main--sotial__leftContent">
+            <img src="./assets/icons/facebook.png" alt="facebook" class="main--sotial--link facebookSize">
+            <img src="./assets/icons/vk.png" alt="vk" class="main--sotial--link vkSize">
+            <img src="./assets/icons/instagram-icon.png" alt="instagramm" class="main--sotial--link">
+            <img src="./assets/icons/wapp-icon.png" alt="wapp" class="main--sotial--link">
         </div>
-        <div class="navbar--info">
-            <a href="#" class="navbar--number">
-                <p>8 (499) 283-45-898 </p>
-            </a>
-            <a href="#" class="navbar--repeatCalling">
-                <p>Обратный звонок</p>
-            </a>
+        <a href="#" class="navbar--number">
+            <p>8 (499) 283-45-898 </p>
+        </a>
+        <a href="#" class="navbar--repeatCalling">
+            <p>Обратный звонок</p>
+        </a>
+    </div>
+</div>
+<div class="branch">
+    <div class="branch--text">
+        <span class="branch--text-span">Сеть фитнес клубов Кing’s gym</span>
+        <h2 class="branch--text-h2">Выбери свой</h2>
+        <div style="width: 185px;" class="line"></div>
+    </div>
+    <div class="branch__leftContent">
+        <div class="branch__leftContent_card">
+            <div class="branch__leftContent-image">
+                <img src="./assets/images/branch_Rectangle_block_1.jpg" alt="branch">
+            </div>
+            <div class="branch--block-info circe">
+                <p class="branch--block-info-p">Фитнес клуб ТРЦ РИО</p>
+                <span class="branch--block-info-span">Дмитровское шоссе, 163А к1. TЦ "РИО"</span>
+                <a href="./pages/home_page.html" class="branch--block-info-btn">Выбрать</a>
+            </div>
         </div>
-        <div class="burger-menu_container">
-            <input type="checkbox" id="burger-toggle">
-            <label for="burger-toggle" class="burger-menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
+        <div class="branch__leftContent_card revers-column">
+            <div class="branch__leftContent-image">
+                <img src="./assets/images/branch_Rectangle_block_2.jpg" alt="branch">
+            </div>
+            <div class="branch--block-info circe">
+                <p class="branch--block-info-p">Фитнес клуб ТЦ Мармелад</p>
+                <span class="branch--block-info-span">Бутово - Парк, 19. ТЦ "Мармелад"</span>
+                <button class="branch--block-info-btn">Выбрать</button>
+            </div>
+        </div>
+        <div class="branch__leftContent_card">
+            <div class="branch__leftContent-image">
+                <img src="./assets/images/branch_Rectangle_block_3.jpg" alt="branch">
+            </div>
+            <div class="branch--block-info circe">
+                <p class="branch--block-info-p">Фитнес клуб ТРЦ Шелковый путь</p>
+                <span class="branch--block-info-span">МКАД, 32-й километр, вл4, Москва.ТРК Шелковый путь</span>
+                <button class="branch--block-info-btn">Выбрать</button>
+            </div>
+        </div>
+        <div class="branch__leftContentcard revers-column">
+            <div class="branch__leftContent-image">
+                <img src="./assets/images/branch_Rectangle_block_4.jpg" alt="branch">
+            </div>
+            <div class="branch--block-info circe">
+                <p class="branch--block-info-p">Барбершоп №1</p>
+                <span class="branch--block-info-span">Бутово - Парк, 19. ТЦ "Мармелад"</span>
+                <button class="branch--block-info-btn">Выбрать</button>
+            </div>
+        </div>
+        <div class="branch__leftContent_card">
+            <div class="branch__leftContent-image">
+                <img src="./assets/images/branch_Rectangle_block_5.jpg" alt="branch">
+            </div>
+            <div class="branch--block-info circe">
+                <p class="branch--block-info-p">Барбершоп №2</p>
+                <span class="branch--block-info-span">Дмитровское шоссе, 163А к1. TЦ "РИО"</span>
+                <button class="branch--block-info-btn">Выбрать</button>
+            </div>
         </div>
     </div>
-    <div class="wrapper">
-        <a href="./pages/home_page.html">home page</a>
-    </div>
-    
-
-
-
-
-
+</div>
 </body>
-<!-- connect JQuerry -->
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<!-- connection slider Slick -->
-<script src="./helpers/libraries/slick.min.js"></script>
-<!-- connect our js file -->
-<script src="./helpers/slider/slider.js"></script>
-<script src="./helpers/secondContentGallery_slider/runningSLider.js"></script>
-<script src="./helpers/teamSLider/teamSlider.js"></script>
-<script src="./helpers/clientsSlider/clientsSLider.js"></script>
-
-
 </html>

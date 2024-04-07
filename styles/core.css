@@ -29,7 +29,7 @@ html {
     max-width: 1110px;
     height: auto;
     margin: auto;
-    margin-top: -300px;
+    /*margin-top: -300px;*/
     /* background: rgba(108, 207, 51, 0.671); */
     z-index: 100;
 }
@@ -42,6 +42,11 @@ html {
     margin: auto;
     /* background: gold; */
     z-index: 100;
+}
+
+.revers-column {
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 /* Scrollbar */
@@ -62,3 +67,8 @@ html {
     background: #FF3A44;
 }
 
+/*font-family*/
+
+.circe {
+    font-family: 'Circe', sans-serif;
+}

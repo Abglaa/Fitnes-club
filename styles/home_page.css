@@ -48,7 +48,6 @@ body {
     font-size: 70px;
     font-weight: 400;
     line-height: 84px;
-    letter-spacing: 0%;
     text-align: left;
     text-transform: uppercase;
     text-shadow: 0px 1.5px 0 red, -2px 1.5px 0 blue;
@@ -60,7 +59,6 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
-    letter-spacing: 0%;
     margin-bottom: 47px;
 }
 
@@ -86,7 +84,7 @@ body {
     letter-spacing: 0%;
 }
 .leftContent--nameInput {
-    padding: 10px 0px 10px 20px;
+    padding: 10px 0 10px 20px;
     border: 1px solid #3D3F46;
     background: rgba(0, 0, 0, 0.219);
     color: rgb(249, 249, 251);

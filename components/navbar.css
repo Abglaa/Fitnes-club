@@ -6,7 +6,7 @@
     background: #1d1c21de;
     width: 100%;
     height: 93px;
-    padding: 8px 0px 8px 0px;
+    padding: 8px 0 8px 0;
     border-bottom: 3px solid #58585B;
     justify-content: right;
     z-index: 999;
@@ -15,7 +15,7 @@
 
 .navbar--logo {
     position: absolute;
-    top: 48px;
+    top: 46px;
     left: 0;
     padding-bottom: 30px;
     border-bottom: 7px solid #CB1642;
@@ -32,7 +32,7 @@
 .navbar--number {
     color: #F9F9FB;
     text-decoration: none;
-    font-family: 'Circe';
+    font-family: 'Circe', sans-serif;
     font-size: 16px;
     font-weight: 700;
 }
@@ -40,7 +40,7 @@
 .navbar--repeatCalling {
     color: #F9F9FB;
     text-decoration: none;
-    font-family: 'Circe';
+    font-family: 'Circe', sans-serif;
     font-size: 16px;
     font-weight: 600;
     padding: 0 16px;
